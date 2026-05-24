@@ -26,7 +26,11 @@
 
 - C++
 - C#
+- C
+- Java
+- HTML
 - JavaScript
+- PHP
 - Python
 
 ## Game Development
@@ -46,7 +50,6 @@
 
 - Git / GitHub
 - Visual Studio
-- Rider
 
 ---
 
@@ -54,7 +57,7 @@
 
 ## Project Shield (Unreal Engine 5)
 
-ソウルライク系の3Dアクションゲーム。
+ソウルライクの3Dアクションゲーム。
 
 プレイヤーは「攻撃」ではなく、
 盾による防御・受け流し・受け返しを中心に戦います。
@@ -67,6 +70,8 @@
 - データ駆動型設計
 - AI Behavior Tree
 
+[ProjectShieldのリポジトリ](https://github.com/kitamikado22/ProjectShield/tree/portfolio)
+
 ---
 
 ## MANFALL (Unity)
@@ -78,7 +83,44 @@
 - 大量オブジェクトの物理制御
 - 負荷軽減のための動的物理制御
 - Web実行を考慮した最適化
-- 拡張性を考慮した設計
+
+[MANFALLのリポジトリ](https://github.com/kitamikado22/manfall/tree/portfolio)
+
+---
+
+## Native C++ Software 3D Renderer
+
+ネイティブC++のみを用いて実装した、
+自作ソフトウェア3Dレンダラー。
+
+ゲームエンジンに依存せず、
+3D描画の基礎技術を理解することを目的として開発しました。
+
+### Technical Features
+
+- ワールド変換 / ビュー変換 / 射影変換
+- ポリゴン描画
+- Z-buffer
+- カメラシステム
+- ライティング
+- CPUベースのラスタライズ処理
+
+### What I Learned
+
+ゲームエンジン内部で行われている描画処理を
+低レイヤーから理解することができました。
+
+また、
+
+- 数学
+- 線形代数
+- 描画パイプライン
+- データ構造
+- パフォーマンス
+
+などの重要性を実践的に学ぶことができました。
+
+[3Dレンダラーのリポジトリ](https://github.com/kitamikado22/3d-renderer)
 
 ---
 
@@ -123,8 +165,3 @@ Compute ShaderによるGPU並列化を用いて、
 
 ---
 
-# GitHub Stats
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_NAME&show_icons=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_NAME&layout=compact)
